@@ -1,0 +1,21 @@
+{
+  "name": "super-octo-enigma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-world.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx --env-file=.env --watch  src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2"
+  }
+}
